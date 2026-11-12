@@ -78,7 +78,7 @@ class Retriever:
         scored: list[tuple[float, dict]] = []
 
         for chunk, doc in zip(self.chunks, self.docs):
-            if university and chunk.get("university") not in (None, university):
+            if university and chunk.get("university") != university:
                 continue
 
             term_freq = Counter(doc)

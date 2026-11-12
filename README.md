@@ -75,6 +75,13 @@ uvicorn src.api.main:app --reload
 
 Пока индекс не собран, `/api/chat` вернёт `503` с подсказкой, что запустить.
 
+Чтобы посмотреть чат и API без сети и сбора данных:
+
+```powershell
+python scripts/make_demo_index.py
+uvicorn src.api.main:app --reload
+```
+
 ### Сбор данных и индекса
 
 ```powershell
@@ -215,6 +222,9 @@ curl.exe -X POST http://localhost:8000/api/chat `
 ```json
 {"id": "q001", "question": "…", "expected_keywords": ["…"], "expected_urls": ["https://…"], "university": "nsu"}
 ```
+
+> Сейчас там **заглушка** из пяти вопросов. После сбора данных замените её на
+> реальные вопросы и эталоны: 60–100 штук, включая 10–15 вопросов «вне базы».
 
 `python -m src.eval.run_eval` считает:
 

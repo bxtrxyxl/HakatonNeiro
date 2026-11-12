@@ -21,7 +21,7 @@ from src.config import PAGES_PATH, RAW_DIR, UNIVERSITIES_PATH
 from src.console import setup_console
 
 
-def extract(html: str, url: str = "") -> dict:
+def extract(html: str | bytes, url: str = "") -> dict:
     soup = BeautifulSoup(html, "lxml")
 
     for tag in soup(["script", "style", "noscript", "svg", "iframe"]):
@@ -100,12 +100,12 @@ def main() -> None:
                 print(f"[skip] не HTML: {path}")
                 continue
             try:
-                html = path.read_text(encoding="utf-8", errors="replace")
+                raw = path.read_bytes()
             except OSError as exc:
                 print(f"[fail] {path}: {exc}")
                 continue
 
-            page = extract(html, url)
+            page = extract(raw, url)
             page["university"] = university_for_url(url, hosts)
             page["raw_path"] = str(path)
             out.write(json.dumps(page, ensure_ascii=False) + "\n")
