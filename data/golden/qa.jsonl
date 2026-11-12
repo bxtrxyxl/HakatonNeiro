@@ -7,3 +7,9 @@
 {"id": "q007", "question": "Какой email приёмной комиссии СибГУТИ?", "expected_keywords": ["prikom@sibsutis.ru"], "expected_urls": ["https://sibsutis.ru/"], "university": "sibsutis"}
 {"id": "q008", "question": "Какой адрес НГПУ?", "expected_keywords": ["Вилюйская"], "expected_urls": ["https://nspu.ru/"], "university": "nspu"}
 {"id": "q009", "question": "Какой телефон приёмной комиссии НГУЭУ?", "expected_keywords": ["2-110-500"], "expected_urls": ["https://nsuem.ru/"], "university": "nsuem"}
+{"id": "q010", "question": "Сколько бюджетных мест на Информатику и вычислительную технику в СибГУТИ?", "expected_keywords": ["258"], "expected_urls": ["https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf"], "university": "sibsutis"}
+{"id": "q011", "question": "Какой проходной балл на бюджет на 09.03.01 в СибГУТИ?", "expected_keywords": ["214"], "expected_urls": ["https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf"], "university": "sibsutis"}
+{"id": "q012", "question": "Какие предметы нужны на Радиотехнику в СибГУТИ?", "expected_keywords": ["Физика"], "expected_urls": ["https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf"], "university": "sibsutis"}
+{"id": "q013", "question": "Сколько стоит обучение на очной форме в СибГУТИ?", "expected_keywords": ["200 000"], "expected_urls": ["https://sibsutis.ru/abitur/platnoe-obuchenie/"], "university": "sibsutis"}
+{"id": "q014", "question": "До какого числа принимают документы на бюджет в СибГУТИ?", "expected_keywords": ["25.07.2026"], "expected_urls": ["https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf"], "university": "sibsutis"}
+{"id": "q015", "question": "Есть ли общежитие в СибГУТИ?", "expected_keywords": ["общежити"], "expected_urls": ["https://sibsutis.ru/abitur/obshchezhitiya/"], "university": "sibsutis"}

@@ -39,11 +39,16 @@ def keywords_found(answer: str, keywords: list[str]) -> bool | None:
     return all(normalize(keyword) in text for keyword in keywords)
 
 
+def normalize_url(url: str) -> str:
+    value = url.strip().rstrip("/")
+    return value.replace("https://www.", "https://").replace("http://www.", "http://")
+
+
 def source_found(sources: list[dict], expected_urls: list[str]) -> bool | None:
     if not expected_urls:
         return None
-    actual = {source.get("url", "") for source in sources}
-    return any(url in actual for url in expected_urls)
+    actual = {normalize_url(source.get("url", "")) for source in sources}
+    return any(normalize_url(url) in actual for url in expected_urls)
 
 
 def rate(values: list[bool | None]) -> float | None:

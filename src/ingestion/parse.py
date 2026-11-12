@@ -98,7 +98,7 @@ def main() -> None:
     count = 0
     with args.out.open("w", encoding="utf-8") as out:
         for path, url in iter_raw_pages(args.root):
-            if path.suffix.lower() not in {".html", ".htm", ""}:
+            if path.suffix.lower() not in {".html", ".htm", ".php", ".asp", ".aspx", ""}:
                 print(f"[skip] не HTML: {path}")
                 continue
             try:

@@ -1,1 +1,1736 @@
-[]
+[
+  {
+    "id": "sibguti-02.03.02-bachelor-full-2026",
+    "program_id": "sibguti-02.03.02-bachelor-full",
+    "year": 2026,
+    "subjects_required": [
+      "Математика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Физика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика": 27,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Физика": 36
+    },
+    "passing_score_budget": 233,
+    "passing_score_paid": 128,
+    "application_deadline_budget": "2026-07-25",
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": null,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.03.01-bachelor-full-2026",
+    "program_id": "sibguti-09.03.01-bachelor-full",
+    "year": 2026,
+    "subjects_required": [
+      "Математика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Физика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика": 27,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Физика": 36
+    },
+    "passing_score_budget": 214,
+    "passing_score_paid": null,
+    "application_deadline_budget": "2026-07-25",
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": null,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.03.02-bachelor-full-2026",
+    "program_id": "sibguti-09.03.02-bachelor-full",
+    "year": 2026,
+    "subjects_required": [
+      "Математика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Физика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика": 27,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Физика": 36
+    },
+    "passing_score_budget": 251,
+    "passing_score_paid": null,
+    "application_deadline_budget": "2026-07-25",
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": null,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.03.03-bachelor-full-2026",
+    "program_id": "sibguti-09.03.03-bachelor-full",
+    "year": 2026,
+    "subjects_required": [
+      "Математика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Физика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика": 27,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Физика": 36
+    },
+    "passing_score_budget": 229,
+    "passing_score_paid": null,
+    "application_deadline_budget": "2026-07-25",
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": null,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-10.03.01-bachelor-full-2026",
+    "program_id": "sibguti-10.03.01-bachelor-full",
+    "year": 2026,
+    "subjects_required": [
+      "Математика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Физика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика": 27,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Физика": 36
+    },
+    "passing_score_budget": 235,
+    "passing_score_paid": 141,
+    "application_deadline_budget": "2026-07-25",
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": null,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.03.01-bachelor-full-2026",
+    "program_id": "sibguti-11.03.01-bachelor-full",
+    "year": 2026,
+    "subjects_required": [
+      "Физика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Математика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Физика": 36,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Математика": 27
+    },
+    "passing_score_budget": 171,
+    "passing_score_paid": null,
+    "application_deadline_budget": "2026-07-25",
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": "11.03.00",
+    "notes": "Входит в многопрофильный конкурс 11.03.00: общие бюджетные (112) и платные (8) места, проходной балл 171.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.03.02-bachelor-full-2026",
+    "program_id": "sibguti-11.03.02-bachelor-full",
+    "year": 2026,
+    "subjects_required": [
+      "Математика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Физика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика": 27,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Физика": 36
+    },
+    "passing_score_budget": 185,
+    "passing_score_paid": null,
+    "application_deadline_budget": "2026-07-25",
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": null,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.03.03-bachelor-full-2026",
+    "program_id": "sibguti-11.03.03-bachelor-full",
+    "year": 2026,
+    "subjects_required": [
+      "Физика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Математика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Физика": 36,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Математика": 27
+    },
+    "passing_score_budget": 171,
+    "passing_score_paid": null,
+    "application_deadline_budget": "2026-07-25",
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": "11.03.00",
+    "notes": "Входит в многопрофильный конкурс 11.03.00: общие бюджетные (112) и платные (8) места, проходной балл 171.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.03.04-bachelor-full-2026",
+    "program_id": "sibguti-11.03.04-bachelor-full",
+    "year": 2026,
+    "subjects_required": [
+      "Физика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Математика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Физика": 36,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Математика": 27
+    },
+    "passing_score_budget": 171,
+    "passing_score_paid": null,
+    "application_deadline_budget": "2026-07-25",
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": "11.03.00",
+    "notes": "Входит в многопрофильный конкурс 11.03.00: общие бюджетные (112) и платные (8) места, проходной балл 171.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.03.00-group-bachelor-full-2026",
+    "program_id": "sibguti-11.03.00-group-bachelor-full",
+    "year": 2026,
+    "subjects_required": [
+      "Физика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Математика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Физика": 36,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Математика": 27
+    },
+    "passing_score_budget": 171,
+    "passing_score_paid": null,
+    "application_deadline_budget": "2026-07-25",
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": "11.03.00",
+    "notes": "Многопрофильный конкурс объединяет направления 11.03.01, 11.03.03 и 11.03.04.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-42.03.01-bachelor-full-2026",
+    "program_id": "sibguti-42.03.01-bachelor-full",
+    "year": 2026,
+    "subjects_required": [
+      "Обществознание",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "История",
+      "Информатика",
+      "Иностранный язык (английский)"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Обществознание": 44,
+      "Русский язык": 36,
+      "История": 34,
+      "Информатика": 40,
+      "Иностранный язык (английский)": 34
+    },
+    "passing_score_budget": null,
+    "passing_score_paid": 145,
+    "application_deadline_budget": null,
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": "Бюджетных мест нет.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-10.05.02-specialist-full-2026",
+    "program_id": "sibguti-10.05.02-specialist-full",
+    "year": 2026,
+    "subjects_required": [
+      "Математика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Физика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика": 27,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Физика": 36
+    },
+    "passing_score_budget": 207,
+    "passing_score_paid": null,
+    "application_deadline_budget": "2026-07-25",
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": null,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.05.01-specialist-full-2026",
+    "program_id": "sibguti-11.05.01-specialist-full",
+    "year": 2026,
+    "subjects_required": [
+      "Физика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Математика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Физика": 36,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Математика": 27
+    },
+    "passing_score_budget": 171,
+    "passing_score_paid": null,
+    "application_deadline_budget": "2026-07-25",
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": null,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.05.04-specialist-full-2026",
+    "program_id": "sibguti-11.05.04-specialist-full",
+    "year": 2026,
+    "subjects_required": [
+      "Математика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Физика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика": 27,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Физика": 36
+    },
+    "passing_score_budget": 189,
+    "passing_score_paid": null,
+    "application_deadline_budget": "2026-07-25",
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": null,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.03.01-bachelor-part-2026",
+    "program_id": "sibguti-09.03.01-bachelor-part",
+    "year": 2026,
+    "subjects_required": [
+      "Математика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Физика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика": 27,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Физика": 36
+    },
+    "passing_score_budget": null,
+    "passing_score_paid": null,
+    "application_deadline_budget": null,
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": "Заочная форма; бюджетных мест нет.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.03.02-bachelor-part-2026",
+    "program_id": "sibguti-09.03.02-bachelor-part",
+    "year": 2026,
+    "subjects_required": [
+      "Математика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Физика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика": 27,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Физика": 36
+    },
+    "passing_score_budget": null,
+    "passing_score_paid": 138,
+    "application_deadline_budget": null,
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": "Заочная форма; бюджетных мест нет.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.03.02-bachelor-part-2026",
+    "program_id": "sibguti-11.03.02-bachelor-part",
+    "year": 2026,
+    "subjects_required": [
+      "Математика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Физика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика": 27,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Физика": 36
+    },
+    "passing_score_budget": null,
+    "passing_score_paid": null,
+    "application_deadline_budget": null,
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": "Заочная форма; бюджетных мест нет.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.03.03-bachelor-remote-2026",
+    "program_id": "sibguti-09.03.03-bachelor-remote",
+    "year": 2026,
+    "subjects_required": [
+      "Математика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Физика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика": 27,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Физика": 36
+    },
+    "passing_score_budget": null,
+    "passing_score_paid": null,
+    "application_deadline_budget": null,
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": "Заочная форма с применением ДОТ; бюджетных мест нет.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-20.03.01-bachelor-remote-2026",
+    "program_id": "sibguti-20.03.01-bachelor-remote",
+    "year": 2026,
+    "subjects_required": [
+      "Математика",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "Информатика",
+      "Физика"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика": 27,
+      "Русский язык": 36,
+      "Информатика": 40,
+      "Физика": 36
+    },
+    "passing_score_budget": null,
+    "passing_score_paid": 142,
+    "application_deadline_budget": null,
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": "Заочная форма с применением ДОТ; бюджетных мест нет.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-42.03.01-bachelor-remote-2026",
+    "program_id": "sibguti-42.03.01-bachelor-remote",
+    "year": 2026,
+    "subjects_required": [
+      "Обществознание",
+      "Русский язык"
+    ],
+    "subjects_optional": [
+      "История",
+      "Информатика",
+      "Иностранный язык (английский)"
+    ],
+    "exams_extra": [],
+    "min_scores": {
+      "Обществознание": 44,
+      "Русский язык": 36,
+      "История": 34,
+      "Информатика": 40,
+      "Иностранный язык (английский)": 34
+    },
+    "passing_score_budget": null,
+    "passing_score_paid": 173,
+    "application_deadline_budget": null,
+    "application_deadline_paid": "2026-08-20",
+    "competitive_group": null,
+    "notes": "Заочная форма с применением ДОТ; бюджетных мест нет.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.04.01-master-full-2026",
+    "program_id": "sibguti-09.04.01-master-full",
+    "year": 2026,
+    "subjects_required": [
+      "Математика и информационные технологии"
+    ],
+    "subjects_optional": [],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика и информационные технологии": 35
+    },
+    "passing_score_budget": 97,
+    "passing_score_paid": 81,
+    "application_deadline_budget": "2026-08-10",
+    "application_deadline_paid": "2026-08-10",
+    "competitive_group": null,
+    "notes": "Внутреннее вступительное испытание; минимальный балл 35.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.04.02-master-full-2026",
+    "program_id": "sibguti-09.04.02-master-full",
+    "year": 2026,
+    "subjects_required": [
+      "Математика и информационные технологии"
+    ],
+    "subjects_optional": [],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика и информационные технологии": 35
+    },
+    "passing_score_budget": 91,
+    "passing_score_paid": null,
+    "application_deadline_budget": "2026-08-10",
+    "application_deadline_paid": "2026-08-10",
+    "competitive_group": null,
+    "notes": "Внутреннее вступительное испытание; минимальный балл 35.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.04.03-master-full-2026",
+    "program_id": "sibguti-09.04.03-master-full",
+    "year": 2026,
+    "subjects_required": [
+      "Математика и информационные технологии"
+    ],
+    "subjects_optional": [],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика и информационные технологии": 35
+    },
+    "passing_score_budget": 95,
+    "passing_score_paid": null,
+    "application_deadline_budget": "2026-08-10",
+    "application_deadline_paid": "2026-08-10",
+    "competitive_group": null,
+    "notes": "Внутреннее вступительное испытание; минимальный балл 35.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-10.04.01-master-full-2026",
+    "program_id": "sibguti-10.04.01-master-full",
+    "year": 2026,
+    "subjects_required": [
+      "Безопасность информационных и телекоммуникационных систем"
+    ],
+    "subjects_optional": [],
+    "exams_extra": [],
+    "min_scores": {
+      "Безопасность информационных и телекоммуникационных систем": 35
+    },
+    "passing_score_budget": null,
+    "passing_score_paid": null,
+    "application_deadline_budget": null,
+    "application_deadline_paid": "2026-08-10",
+    "competitive_group": null,
+    "notes": "Не имеет государственной аккредитации; бюджетных мест нет.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.04.02-networks-master-full-2026",
+    "program_id": "sibguti-11.04.02-networks-master-full",
+    "year": 2026,
+    "subjects_required": [
+      "Инфокоммуникационные технологии и системы связи"
+    ],
+    "subjects_optional": [],
+    "exams_extra": [],
+    "min_scores": {
+      "Инфокоммуникационные технологии и системы связи": 35
+    },
+    "passing_score_budget": 86,
+    "passing_score_paid": 73,
+    "application_deadline_budget": "2026-08-10",
+    "application_deadline_paid": "2026-08-10",
+    "competitive_group": null,
+    "notes": "Внутреннее вступительное испытание; минимальный балл 35.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.04.02-mobile-master-full-2026",
+    "program_id": "sibguti-11.04.02-mobile-master-full",
+    "year": 2026,
+    "subjects_required": [
+      "Инфокоммуникационные технологии и системы связи"
+    ],
+    "subjects_optional": [],
+    "exams_extra": [],
+    "min_scores": {
+      "Инфокоммуникационные технологии и системы связи": 35
+    },
+    "passing_score_budget": 71,
+    "passing_score_paid": null,
+    "application_deadline_budget": "2026-08-10",
+    "application_deadline_paid": "2026-08-10",
+    "competitive_group": null,
+    "notes": "Внутреннее вступительное испытание; минимальный балл 35.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-42.04.01-master-full-2026",
+    "program_id": "sibguti-42.04.01-master-full",
+    "year": 2026,
+    "subjects_required": [
+      "Маркетинг, реклама и связи с общественностью"
+    ],
+    "subjects_optional": [],
+    "exams_extra": [],
+    "min_scores": {
+      "Маркетинг, реклама и связи с общественностью": 35
+    },
+    "passing_score_budget": null,
+    "passing_score_paid": null,
+    "application_deadline_budget": null,
+    "application_deadline_paid": "2026-08-10",
+    "competitive_group": null,
+    "notes": "Не имеет государственной аккредитации; бюджетных мест нет.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.04.01-master-part-2026",
+    "program_id": "sibguti-09.04.01-master-part",
+    "year": 2026,
+    "subjects_required": [
+      "Математика и информационные технологии"
+    ],
+    "subjects_optional": [],
+    "exams_extra": [],
+    "min_scores": {
+      "Математика и информационные технологии": 35
+    },
+    "passing_score_budget": null,
+    "passing_score_paid": null,
+    "application_deadline_budget": null,
+    "application_deadline_paid": "2026-08-10",
+    "competitive_group": null,
+    "notes": "Заочная форма; бюджетных мест нет. Внутреннее испытание, минимальный балл 35.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.04.02-networks-master-part-2026",
+    "program_id": "sibguti-11.04.02-networks-master-part",
+    "year": 2026,
+    "subjects_required": [
+      "Инфокоммуникационные технологии и системы связи"
+    ],
+    "subjects_optional": [],
+    "exams_extra": [],
+    "min_scores": {
+      "Инфокоммуникационные технологии и системы связи": 35
+    },
+    "passing_score_budget": null,
+    "passing_score_paid": 68,
+    "application_deadline_budget": null,
+    "application_deadline_paid": "2026-08-10",
+    "competitive_group": null,
+    "notes": "Заочная форма; бюджетных мест нет. Внутреннее испытание, минимальный балл 35.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.04.02-security-master-part-2026",
+    "program_id": "sibguti-11.04.02-security-master-part",
+    "year": 2026,
+    "subjects_required": [
+      "Безопасность инфокоммуникационных систем и сетей"
+    ],
+    "subjects_optional": [],
+    "exams_extra": [],
+    "min_scores": {
+      "Безопасность инфокоммуникационных систем и сетей": 35
+    },
+    "passing_score_budget": null,
+    "passing_score_paid": null,
+    "application_deadline_budget": null,
+    "application_deadline_paid": "2026-08-10",
+    "competitive_group": null,
+    "notes": "Заочная форма; бюджетных мест нет. Внутреннее испытание, минимальный балл 35.",
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Правила%20приёма/Минимальные%20баллы%202026%20на%20сайт.pdf",
+        "title": "Минимальные баллы 2026",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/147/Приложение 5 Сроки проведения приема и процедуры зачисления.pdf",
+        "title": "Приложение 5: сроки приёма",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  }
+]

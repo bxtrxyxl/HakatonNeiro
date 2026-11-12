@@ -85,5 +85,11 @@ class Admission(BaseModel):
         description="Проходной балл на бюджет прошлого года (фактический cutoff)",
     )
     passing_score_paid: int | None = None
-    application_deadline: date | None = None
+    application_deadline_budget: date | None = None
+    application_deadline_paid: date | None = None
+    competitive_group: str | None = Field(
+        default=None,
+        description="Код конкурсной группы, если конкурс общий для нескольких направлений",
+    )
+    notes: str | None = None
     sources: list[Source] = Field(default_factory=list)

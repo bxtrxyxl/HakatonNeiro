@@ -16,6 +16,7 @@ import re
 import httpx
 
 from src.config import LLM_API_KEY, LLM_BASE_URL, LLM_MODEL, LLM_TEMPERATURE
+from src.rag.facts import answer_from_facts
 from src.rag.retrieve import Retriever, content_terms
 
 SYSTEM_PROMPT = """Ты — помощник абитуриента по вузам Новосибирска.
@@ -125,6 +126,10 @@ def answer_question(
     top_k: int = 5,
     university: str | None = None,
 ) -> dict:
+    fact_result = answer_from_facts(question, university)
+    if fact_result is not None:
+        return fact_result
+
     hits = retriever.search(question, k=top_k, university=university)
     hits = [hit for hit in hits if retriever.coverage(question, hit) >= MIN_COVERAGE]
 

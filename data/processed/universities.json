@@ -34,12 +34,21 @@
     "site": "https://www.nspu.ru",
     "city": "Новосибирск",
     "founded": null,
-    "address": null,
+    "address": "630126, г. Новосибирск, ул. Вилюйская, 28",
     "phone": null,
-    "email": null,
+    "email": "nspu@nspu.ru",
     "status": "active",
     "confirmed": true,
-    "sources": []
+    "sources": [
+      {
+        "url": "https://nspu.ru/",
+        "title": "Официальный сайт НГПУ",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
   },
   {
     "slug": "ngmu",
@@ -76,12 +85,21 @@
     "site": "https://www.sibsutis.ru",
     "city": "Новосибирск",
     "founded": null,
-    "address": null,
-    "phone": null,
-    "email": null,
+    "address": "г. Новосибирск, ул. Гурьевская, 51, корпус №1 (главный)",
+    "phone": "+7 (383) 269-82-28, +7 (383) 269-82-29",
+    "email": "prikom@sibsutis.ru",
     "status": "active",
     "confirmed": true,
-    "sources": []
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/abitur/",
+        "title": "Абитуриентам",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
   },
   {
     "slug": "nsuem",
@@ -91,11 +109,20 @@
     "city": "Новосибирск",
     "founded": null,
     "address": null,
-    "phone": null,
-    "email": null,
+    "phone": "+7 (383) 2-110-500",
+    "email": "priemc@nsuem.ru",
     "status": "active",
     "confirmed": true,
-    "sources": []
+    "sources": [
+      {
+        "url": "https://nsuem.ru/",
+        "title": "Официальный сайт НГУЭУ",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
   },
   {
     "slug": "nsau",

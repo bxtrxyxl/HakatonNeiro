@@ -1,1 +1,1412 @@
-[]
+[
+  {
+    "id": "sibguti-02.03.02-bachelor-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "02.03.02",
+    "name": "Фундаментальная информатика и информационные технологии",
+    "level": "bachelor",
+    "form": "full_time",
+    "duration_years": 4,
+    "budget_places": 50,
+    "paid_places": 10,
+    "tuition_rub": 200000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.03.01-bachelor-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "09.03.01",
+    "name": "Информатика и вычислительная техника",
+    "level": "bachelor",
+    "form": "full_time",
+    "duration_years": 4,
+    "budget_places": 258,
+    "paid_places": 101,
+    "tuition_rub": 200000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.03.02-bachelor-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "09.03.02",
+    "name": "Информационные системы и технологии",
+    "level": "bachelor",
+    "form": "full_time",
+    "duration_years": 4,
+    "budget_places": 65,
+    "paid_places": 85,
+    "tuition_rub": 200000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.03.03-bachelor-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "09.03.03",
+    "name": "Прикладная информатика",
+    "level": "bachelor",
+    "form": "full_time",
+    "duration_years": 4,
+    "budget_places": 50,
+    "paid_places": 25,
+    "tuition_rub": 200000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-10.03.01-bachelor-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "10.03.01",
+    "name": "Информационная безопасность",
+    "level": "bachelor",
+    "form": "full_time",
+    "duration_years": 4,
+    "budget_places": 38,
+    "paid_places": 52,
+    "tuition_rub": 200000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.03.01-bachelor-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "11.03.01",
+    "name": "Радиотехника",
+    "level": "bachelor",
+    "form": "full_time",
+    "duration_years": 4,
+    "budget_places": null,
+    "paid_places": null,
+    "tuition_rub": 200000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.03.02-bachelor-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "11.03.02",
+    "name": "Инфокоммуникационные технологии и системы связи",
+    "level": "bachelor",
+    "form": "full_time",
+    "duration_years": 4,
+    "budget_places": 196,
+    "paid_places": 44,
+    "tuition_rub": 200000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.03.03-bachelor-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "11.03.03",
+    "name": "Конструирование и технология электронных средств",
+    "level": "bachelor",
+    "form": "full_time",
+    "duration_years": 4,
+    "budget_places": null,
+    "paid_places": null,
+    "tuition_rub": 200000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.03.04-bachelor-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "11.03.04",
+    "name": "Электроника и наноэлектроника",
+    "level": "bachelor",
+    "form": "full_time",
+    "duration_years": 4,
+    "budget_places": null,
+    "paid_places": null,
+    "tuition_rub": 200000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.03.00-group-bachelor-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "11.03.00",
+    "name": "Электроника, радиотехника и системы связи (многопрофильный конкурс)",
+    "level": "bachelor",
+    "form": "full_time",
+    "duration_years": 4,
+    "budget_places": 112,
+    "paid_places": 8,
+    "tuition_rub": 200000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-42.03.01-bachelor-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "42.03.01",
+    "name": "Реклама и связи с общественностью",
+    "level": "bachelor",
+    "form": "full_time",
+    "duration_years": 4,
+    "budget_places": 0,
+    "paid_places": 50,
+    "tuition_rub": 200000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-10.05.02-specialist-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "10.05.02",
+    "name": "Информационная безопасность телекоммуникационных систем",
+    "level": "specialist",
+    "form": "full_time",
+    "duration_years": 5.5,
+    "budget_places": 83,
+    "paid_places": 47,
+    "tuition_rub": 200000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.05.01-specialist-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "11.05.01",
+    "name": "Радиоэлектронные системы и комплексы",
+    "level": "specialist",
+    "form": "full_time",
+    "duration_years": 5.5,
+    "budget_places": 10,
+    "paid_places": 10,
+    "tuition_rub": 200000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.05.04-specialist-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "11.05.04",
+    "name": "Инфокоммуникационные технологии и системы специальной связи",
+    "level": "specialist",
+    "form": "full_time",
+    "duration_years": 5.0,
+    "budget_places": 24,
+    "paid_places": 5,
+    "tuition_rub": 200000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.03.01-bachelor-part",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "09.03.01",
+    "name": "Информатика и вычислительная техника",
+    "level": "bachelor",
+    "form": "part_time",
+    "duration_years": 4.83,
+    "budget_places": 0,
+    "paid_places": 210,
+    "tuition_rub": 80000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.03.02-bachelor-part",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "09.03.02",
+    "name": "Информационные системы и технологии",
+    "level": "bachelor",
+    "form": "part_time",
+    "duration_years": 4.83,
+    "budget_places": 0,
+    "paid_places": 90,
+    "tuition_rub": 80000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.03.02-bachelor-part",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "11.03.02",
+    "name": "Инфокоммуникационные технологии и системы связи",
+    "level": "bachelor",
+    "form": "part_time",
+    "duration_years": 4.83,
+    "budget_places": 0,
+    "paid_places": 300,
+    "tuition_rub": 80000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.03.03-bachelor-remote",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "09.03.03",
+    "name": "Прикладная информатика",
+    "level": "bachelor",
+    "form": "remote",
+    "duration_years": 4.83,
+    "budget_places": 0,
+    "paid_places": 60,
+    "tuition_rub": 80000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-20.03.01-bachelor-remote",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "20.03.01",
+    "name": "Техносферная безопасность",
+    "level": "bachelor",
+    "form": "remote",
+    "duration_years": 4.83,
+    "budget_places": 0,
+    "paid_places": 30,
+    "tuition_rub": 80000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-42.03.01-bachelor-remote",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "42.03.01",
+    "name": "Реклама и связи с общественностью",
+    "level": "bachelor",
+    "form": "remote",
+    "duration_years": 4.83,
+    "budget_places": 0,
+    "paid_places": 30,
+    "tuition_rub": 80000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.04.01-master-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "09.04.01",
+    "name": "Информатика и вычислительная техника",
+    "level": "master",
+    "form": "full_time",
+    "duration_years": 2,
+    "budget_places": 11,
+    "paid_places": 21,
+    "tuition_rub": 215000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.04.02-master-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "09.04.02",
+    "name": "Информационные системы и технологии",
+    "level": "master",
+    "form": "full_time",
+    "duration_years": 2,
+    "budget_places": 5,
+    "paid_places": 20,
+    "tuition_rub": 210000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.04.03-master-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "09.04.03",
+    "name": "Прикладная информатика",
+    "level": "master",
+    "form": "full_time",
+    "duration_years": 2,
+    "budget_places": 5,
+    "paid_places": 20,
+    "tuition_rub": 210000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-10.04.01-master-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "10.04.01",
+    "name": "Информационная безопасность",
+    "level": "master",
+    "form": "full_time",
+    "duration_years": 2,
+    "budget_places": 0,
+    "paid_places": 20,
+    "tuition_rub": 210000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.04.02-networks-master-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "11.04.02",
+    "name": "Инфокоммуникационные технологии и системы связи (Сети, системы и устройства телекоммуникаций)",
+    "level": "master",
+    "form": "full_time",
+    "duration_years": 2,
+    "budget_places": 21,
+    "paid_places": 9,
+    "tuition_rub": 215000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.04.02-mobile-master-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "11.04.02",
+    "name": "Инфокоммуникационные технологии и системы связи (Архитектура и алгоритмы систем наземной и спутниковой мобильной связи)",
+    "level": "master",
+    "form": "full_time",
+    "duration_years": 2,
+    "budget_places": 12,
+    "paid_places": 10,
+    "tuition_rub": 215000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-42.04.01-master-full",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "42.04.01",
+    "name": "Реклама и связи с общественностью",
+    "level": "master",
+    "form": "full_time",
+    "duration_years": 2,
+    "budget_places": 0,
+    "paid_places": 20,
+    "tuition_rub": 190000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-09.04.01-master-part",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "09.04.01",
+    "name": "Информатика и вычислительная техника",
+    "level": "master",
+    "form": "part_time",
+    "duration_years": 2.5,
+    "budget_places": 0,
+    "paid_places": 30,
+    "tuition_rub": 85000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.04.02-networks-master-part",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "11.04.02",
+    "name": "Инфокоммуникационные технологии и системы связи (Сети, системы и устройства телекоммуникаций)",
+    "level": "master",
+    "form": "part_time",
+    "duration_years": 2.5,
+    "budget_places": 0,
+    "paid_places": 20,
+    "tuition_rub": 85000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  },
+  {
+    "id": "sibguti-11.04.02-security-master-part",
+    "university_slug": "sibsutis",
+    "faculty": null,
+    "code": "11.04.02",
+    "name": "Инфокоммуникационные технологии и системы связи (Безопасность в инфокоммуникационных технологиях и системах связи)",
+    "level": "master",
+    "form": "part_time",
+    "duration_years": 2.5,
+    "budget_places": 0,
+    "paid_places": 20,
+    "tuition_rub": 85000,
+    "sources": [
+      {
+        "url": "https://sibsutis.ru/applicants/documents/Прием%202026/Итоги%20приема%202026.pdf",
+        "title": "Итоги приёма 2026: места и проходные баллы",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-08-07",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/710/Пр 2 Вступительные испытания и минимальные баллы в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 2: вступительные испытания",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/upload/iblock/211/Приложение 1 Перечень специальностей для поступления в СибГУТИ и филиалы.pdf",
+        "title": "Приложение 1: перечень специальностей и сроки обучения",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": "2026-01-19",
+        "valid_to": null,
+        "checksum": null
+      },
+      {
+        "url": "https://sibsutis.ru/abitur/platnoe-obuchenie/",
+        "title": "Стоимость обучения 2026/2027",
+        "parsed_at": "2026-11-12T12:00:00",
+        "valid_from": null,
+        "valid_to": null,
+        "checksum": null
+      }
+    ]
+  }
+]

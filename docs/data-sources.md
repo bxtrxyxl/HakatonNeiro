@@ -13,7 +13,7 @@
 | 3 | НГПУ | https://www.nspu.ru | | ☐ |
 | 4 | НГМУ | https://www.ngmu.ru | | ☐ |
 | 5 | СГУПС | https://www.stu.ru | | ☐ |
-| 6 | СибГУТИ | https://www.sibsutis.ru | | ☐ |
+| 6 | СибГУТИ | https://www.sibsutis.ru | https://sibsutis.ru/abitur/ | ✅ данные собраны |
 | 7 | НГУЭУ | https://nsuem.ru | | ☐ |
 | 8 | НГАУ | http://nsau.ru | | ☐ |
 | 9 | НГАСУ (Сибстрин) | https://www.sibstrin.ru | | ☐ |
