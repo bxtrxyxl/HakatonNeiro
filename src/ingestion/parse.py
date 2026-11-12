@@ -24,7 +24,9 @@ from src.console import setup_console
 def extract(html: str | bytes, url: str = "") -> dict:
     soup = BeautifulSoup(html, "lxml")
 
-    for tag in soup(["script", "style", "noscript", "svg", "iframe"]):
+    for tag in soup(
+        ["script", "style", "noscript", "svg", "iframe", "nav", "footer", "aside", "form"]
+    ):
         tag.decompose()
 
     title = soup.title.get_text(" ", strip=True) if soup.title else ""

@@ -11,10 +11,12 @@
 
 from __future__ import annotations
 
+import re
+
 import httpx
 
 from src.config import LLM_API_KEY, LLM_BASE_URL, LLM_MODEL, LLM_TEMPERATURE
-from src.rag.retrieve import Retriever
+from src.rag.retrieve import Retriever, content_terms
 
 SYSTEM_PROMPT = """Ты — помощник абитуриента по вузам Новосибирска.
 
@@ -47,12 +49,51 @@ def build_context(hits: list[dict]) -> str:
     return "\n\n".join(blocks)
 
 
-def _extractive_answer(hits: list[dict]) -> str:
-    best = hits[0]
-    text = " ".join(best.get("text", "").split())
-    if len(text) > 900:
-        text = text[:900].rsplit(" ", 1)[0] + "…"
-    return f"По доступному источнику: {text}\n\nИсточник: [1]"
+MAX_EXCERPT = 400
+
+
+def _excerpts(text: str) -> list[str]:
+    """Режет текст на предложения, а слишком длинные — на окна по 400 символов."""
+    pieces: list[str] = []
+    for sentence in re.split(r"(?<=[.!?])\s+|\n+", text):
+        sentence = sentence.strip()
+        if not sentence:
+            continue
+        if len(sentence) <= MAX_EXCERPT:
+            pieces.append(sentence)
+            continue
+        step = 100
+        for start in range(0, len(sentence), step):
+            piece = sentence[start : start + MAX_EXCERPT].strip()
+            if piece:
+                pieces.append(piece)
+    return pieces
+
+
+def _extractive_answer(question: str, hits: list[dict]) -> str:
+    """Без LLM: по одному лучшему окну из каждого источника, максимум два."""
+    terms = content_terms(question)
+    per_hit: list[tuple[int, int, str]] = []
+
+    for index, hit in enumerate(hits, start=1):
+        text = " ".join(hit.get("text", "").split())
+        best_for_hit: tuple[int, str] | None = None
+        for piece in _excerpts(text):
+            overlap = len(terms & content_terms(piece))
+            if overlap and (best_for_hit is None or overlap > best_for_hit[0]):
+                best_for_hit = (overlap, piece)
+        if best_for_hit is not None:
+            per_hit.append((best_for_hit[0], index, best_for_hit[1]))
+
+    if not per_hit:
+        fallback = " ".join(hits[0].get("text", "").split())
+        if len(fallback) > MAX_EXCERPT:
+            fallback = fallback[:MAX_EXCERPT].rsplit(" ", 1)[0] + "…"
+        return f"По доступному источнику: {fallback}\n\nИсточник: [1]"
+
+    per_hit.sort(key=lambda item: (-item[0], item[1]))
+    lines = [f"— …{piece}… [{index}]" for _, index, piece in per_hit[:2]]
+    return "По доступным источникам:\n" + "\n".join(lines)
 
 
 def _call_llm(question: str, context: str) -> str:
@@ -117,7 +158,7 @@ def answer_question(
             print(f"[warn] LLM недоступна ({exc}), использую extractive-режим")
 
     return {
-        "answer": _extractive_answer(hits),
+        "answer": _extractive_answer(question, hits),
         "sources": sources,
         "grounded": True,
         "mode": "extractive",

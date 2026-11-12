@@ -3,3 +3,7 @@
 {"id": "q003", "question": "Какие предметы нужны для поступления на ПМИ в НГУ?", "expected_keywords": ["математика"], "expected_urls": [], "university": "nsu"}
 {"id": "q004", "question": "Какой проходной балл на бюджет в НГУ?", "expected_keywords": ["балл"], "expected_urls": [], "university": "nsu"}
 {"id": "q005", "question": "Какая погода в Новосибирске завтра?", "expected_keywords": [], "expected_urls": [], "expect_no_answer": true, "university": null}
+{"id": "q006", "question": "Какой email приёмной комиссии НГУЭУ?", "expected_keywords": ["priemc@nsuem.ru"], "expected_urls": ["https://nsuem.ru/"], "university": "nsuem"}
+{"id": "q007", "question": "Какой email приёмной комиссии СибГУТИ?", "expected_keywords": ["prikom@sibsutis.ru"], "expected_urls": ["https://sibsutis.ru/"], "university": "sibsutis"}
+{"id": "q008", "question": "Какой адрес НГПУ?", "expected_keywords": ["Вилюйская"], "expected_urls": ["https://nspu.ru/"], "university": "nspu"}
+{"id": "q009", "question": "Какой телефон приёмной комиссии НГУЭУ?", "expected_keywords": ["2-110-500"], "expected_urls": ["https://nsuem.ru/"], "university": "nsuem"}

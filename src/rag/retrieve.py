@@ -15,6 +15,13 @@ from pathlib import Path
 
 TOKEN_RE = re.compile(r"[a-zа-яё0-9]+", re.IGNORECASE)
 
+try:
+    import snowballstemmer
+
+    _STEMMER = snowballstemmer.stemmer("russian")
+except ImportError:  # стеммер опционален: без него поиск работает хуже, но не падает
+    _STEMMER = None
+
 # Минимальный набор стоп-слов: нужен, чтобы не считать служебные слова
 # доказательством релевантности. Список можно расширять по golden-set.
 STOPWORDS = {
@@ -38,13 +45,28 @@ STOPWORDS = {
 }
 
 
-def tokenize(text: str) -> list[str]:
+def raw_tokens(text: str) -> list[str]:
     return TOKEN_RE.findall(text.lower())
+
+
+def stem(token: str) -> str:
+    """Стемминг только для кириллицы: латиница, почты и коды не трогаем."""
+    if _STEMMER is None or not re.search(r"[а-яё]", token):
+        return token
+    return _STEMMER.stemWord(token)
+
+
+def tokenize(text: str) -> list[str]:
+    return [stem(token) for token in raw_tokens(text)]
 
 
 def content_terms(text: str) -> set[str]:
     """Значимые слова запроса: без стоп-слов и односимвольных токенов."""
-    return {term for term in tokenize(text) if term not in STOPWORDS and len(term) > 1}
+    return {
+        stem(token)
+        for token in raw_tokens(text)
+        if token not in STOPWORDS and len(token) > 1
+    }
 
 
 
