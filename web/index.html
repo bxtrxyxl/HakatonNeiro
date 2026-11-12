@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Абитуриент-бот · вузы Новосибирска</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0e1116;
+      --panel: #161b22;
+      --border: #2a3038;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #6ea8fe;
+      --user: #1f6feb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    header h1 { font-size: 18px; margin: 0; }
+    header span { color: var(--muted); font-size: 13px; }
+    main {
+      flex: 1;
+      overflow-y: auto;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-width: 900px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .msg {
+      max-width: 85%;
+      padding: 12px 16px;
+      border-radius: 14px;
+      line-height: 1.5;
+      white-space: pre-wrap;
+    }
+    .msg.user { align-self: flex-end; background: var(--user); }
+    .msg.bot { align-self: flex-start; background: var(--panel); border: 1px solid var(--border); }
+    .meta {
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .badge { border: 1px solid var(--border); border-radius: 999px; padding: 1px 8px; }
+    .sources { margin-top: 10px; display: flex; flex-direction: column; gap: 4px; font-size: 13px; }
+    .sources a { color: var(--accent); text-decoration: none; overflow-wrap: anywhere; }
+    .sources a:hover { text-decoration: underline; }
+    form {
+      position: sticky;
+      bottom: 0;
+      background: var(--bg);
+      border-top: 1px solid var(--border);
+      padding: 16px 24px;
+      display: flex;
+      gap: 10px;
+    }
+    form input {
+      flex: 1;
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--panel);
+      color: var(--text);
+      font-size: 15px;
+      outline: none;
+    }
+    form input:focus { border-color: var(--accent); }
+    form button {
+      padding: 12px 20px;
+      border: 0;
+      border-radius: 10px;
+      background: var(--accent);
+      color: #0b1220;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    form button:disabled { opacity: 0.6; cursor: wait; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Абитуриент-бот</h1>
+    <span>вузы Новосибирска · ответы со ссылками на источники</span>
+  </header>
+
+  <main id="chat">
+    <div class="msg bot">Здравствуйте! Спросите про вузы Новосибирска: направления, предметы ЕГЭ, проходные баллы, сроки приёма. Я отвечу и покажу источники.</div>
+  </main>
+
+  <form id="form">
+    <input id="q" autocomplete="off" placeholder="Например: какие предметы нужны на ПМИ в НГУ?" />
+    <button id="send" type="submit">Спросить</button>
+  </form>
+
+  <script>
+    const chat = document.getElementById("chat");
+    const form = document.getElementById("form");
+    const input = document.getElementById("q");
+    const send = document.getElementById("send");
+
+    function el(tag, className, text) {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text !== undefined) node.textContent = text;
+      return node;
+    }
+
+    function addMessage(role, text, sources = [], mode = "") {
+      const msg = el("div", "msg " + role);
+      msg.appendChild(el("div", "", text));
+
+      if (sources.length) {
+        const box = el("div", "sources");
+        box.appendChild(el("div", "meta", "Источники:"));
+        sources.forEach((source, index) => {
+          const link = el("a", "", `[${index + 1}] ${source.title || source.url}`);
+          link.href = source.url;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          box.appendChild(link);
+        });
+        msg.appendChild(box);
+      }
+
+      if (mode) {
+        const meta = el("div", "meta");
+        meta.appendChild(el("span", "badge", "режим: " + mode));
+        msg.appendChild(meta);
+      }
+
+      chat.appendChild(msg);
+      chat.scrollTop = chat.scrollHeight;
+      return msg;
+    }
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const question = input.value.trim();
+      if (!question) return;
+
+      addMessage("user", question);
+      input.value = "";
+      send.disabled = true;
+      const loading = addMessage("bot", "Ищу в источниках…");
+
+      try {
+        const response = await fetch("/api/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question }),
+        });
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.detail || response.statusText);
+        loading.remove();
+        addMessage("bot", data.answer, data.sources || [], data.mode || "");
+      } catch (error) {
+        loading.remove();
+        addMessage("bot", "Ошибка: " + error.message);
+      } finally {
+        send.disabled = false;
+        input.focus();
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Node / фронтенд
+node_modules/
+dist/
+.vite/
+
+# Данные: сырьё не коммитим (крупное и воспроизводимое)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/pages.jsonl
+data/chunks/*.jsonl
+!data/chunks/.gitkeep
+data/index/
+chroma_db/
+*.sqlite3
+*.log
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini

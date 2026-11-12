@@ -1,0 +1,5 @@
+{"id": "q001", "question": "Какие вузы есть в Новосибирске?", "expected_keywords": ["Новосибирск"], "expected_urls": [], "university": null}
+{"id": "q002", "question": "Где находится НГУ?", "expected_keywords": ["Новосибирск"], "expected_urls": [], "university": "nsu"}
+{"id": "q003", "question": "Какие предметы нужны для поступления на ПМИ в НГУ?", "expected_keywords": ["математика"], "expected_urls": [], "university": "nsu"}
+{"id": "q004", "question": "Какой проходной балл на бюджет в НГУ?", "expected_keywords": ["245"], "expected_urls": [], "university": "nsu"}
+{"id": "q005", "question": "Есть ли в НГУ военная кафедра?", "expected_keywords": [], "expected_urls": [], "expect_no_answer": true, "university": "nsu"}
