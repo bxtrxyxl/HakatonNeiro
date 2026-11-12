@@ -10,7 +10,7 @@
     "phone": null,
     "email": null,
     "status": "active",
-    "confirmed": false,
+    "confirmed": true,
     "sources": []
   },
   {
@@ -24,7 +24,7 @@
     "phone": null,
     "email": null,
     "status": "active",
-    "confirmed": false,
+    "confirmed": true,
     "sources": []
   },
   {
@@ -38,63 +38,7 @@
     "phone": null,
     "email": null,
     "status": "active",
-    "confirmed": false,
-    "sources": []
-  },
-  {
-    "slug": "nsuem",
-    "name": "Новосибирский государственный университет экономики и управления",
-    "short_name": "НГУЭУ",
-    "site": "https://nsuem.ru",
-    "city": "Новосибирск",
-    "founded": null,
-    "address": null,
-    "phone": null,
-    "email": null,
-    "status": "active",
-    "confirmed": false,
-    "sources": []
-  },
-  {
-    "slug": "sibsutis",
-    "name": "Сибирский государственный университет телекоммуникаций и информатики",
-    "short_name": "СибГУТИ",
-    "site": "https://www.sibsutis.ru",
-    "city": "Новосибирск",
-    "founded": null,
-    "address": null,
-    "phone": null,
-    "email": null,
-    "status": "active",
-    "confirmed": false,
-    "sources": []
-  },
-  {
-    "slug": "sibstrin",
-    "name": "Новосибирский государственный архитектурно-строительный университет",
-    "short_name": "НГАСУ (Сибстрин)",
-    "site": "https://www.sibstrin.ru",
-    "city": "Новосибирск",
-    "founded": null,
-    "address": null,
-    "phone": null,
-    "email": null,
-    "status": "active",
-    "confirmed": false,
-    "sources": []
-  },
-  {
-    "slug": "nsau",
-    "name": "Новосибирский государственный аграрный университет",
-    "short_name": "НГАУ",
-    "site": "https://nsau.edu.ru",
-    "city": "Новосибирск",
-    "founded": null,
-    "address": null,
-    "phone": null,
-    "email": null,
-    "status": "active",
-    "confirmed": false,
+    "confirmed": true,
     "sources": []
   },
   {
@@ -108,7 +52,7 @@
     "phone": null,
     "email": null,
     "status": "active",
-    "confirmed": false,
+    "confirmed": true,
     "sources": []
   },
   {
@@ -122,7 +66,63 @@
     "phone": null,
     "email": null,
     "status": "active",
-    "confirmed": false,
+    "confirmed": true,
+    "sources": []
+  },
+  {
+    "slug": "sibsutis",
+    "name": "Сибирский государственный университет телекоммуникаций и информатики",
+    "short_name": "СибГУТИ",
+    "site": "https://www.sibsutis.ru",
+    "city": "Новосибирск",
+    "founded": null,
+    "address": null,
+    "phone": null,
+    "email": null,
+    "status": "active",
+    "confirmed": true,
+    "sources": []
+  },
+  {
+    "slug": "nsuem",
+    "name": "Новосибирский государственный университет экономики и управления",
+    "short_name": "НГУЭУ",
+    "site": "https://nsuem.ru",
+    "city": "Новосибирск",
+    "founded": null,
+    "address": null,
+    "phone": null,
+    "email": null,
+    "status": "active",
+    "confirmed": true,
+    "sources": []
+  },
+  {
+    "slug": "nsau",
+    "name": "Новосибирский государственный аграрный университет",
+    "short_name": "НГАУ",
+    "site": "http://nsau.ru",
+    "city": "Новосибирск",
+    "founded": null,
+    "address": null,
+    "phone": null,
+    "email": null,
+    "status": "active",
+    "confirmed": true,
+    "sources": []
+  },
+  {
+    "slug": "sibstrin",
+    "name": "Новосибирский государственный архитектурно-строительный университет",
+    "short_name": "НГАСУ (Сибстрин)",
+    "site": "https://www.sibstrin.ru",
+    "city": "Новосибирск",
+    "founded": null,
+    "address": null,
+    "phone": null,
+    "email": null,
+    "status": "active",
+    "confirmed": true,
     "sources": []
   },
   {
@@ -136,7 +136,7 @@
     "phone": null,
     "email": null,
     "status": "active",
-    "confirmed": false,
+    "confirmed": true,
     "sources": []
   },
   {
@@ -150,21 +150,49 @@
     "phone": null,
     "email": null,
     "status": "active",
-    "confirmed": false,
+    "confirmed": true,
     "sources": []
   },
   {
-    "slug": "sipk",
-    "name": "Сибирский университет потребительской кооперации",
-    "short_name": "СибУПК",
-    "site": "https://sipk.ru",
+    "slug": "ssuwt",
+    "name": "Сибирский государственный университет водного транспорта",
+    "short_name": "СГУВТ",
+    "site": "https://ssuwt.ru",
     "city": "Новосибирск",
     "founded": null,
     "address": null,
     "phone": null,
     "email": null,
     "status": "active",
-    "confirmed": false,
+    "confirmed": true,
+    "sources": []
+  },
+  {
+    "slug": "nsglinka",
+    "name": "Новосибирская государственная консерватория имени М. И. Глинки",
+    "short_name": "НГК им. Глинки",
+    "site": "https://nsglinka.ru",
+    "city": "Новосибирск",
+    "founded": null,
+    "address": null,
+    "phone": null,
+    "email": null,
+    "status": "active",
+    "confirmed": true,
+    "sources": []
+  },
+  {
+    "slug": "ngti",
+    "name": "Новосибирский государственный театральный институт",
+    "short_name": "НГТИ",
+    "site": "https://ngti.ru",
+    "city": "Новосибирск",
+    "founded": null,
+    "address": null,
+    "phone": null,
+    "email": null,
+    "status": "active",
+    "confirmed": true,
     "sources": []
   }
 ]
