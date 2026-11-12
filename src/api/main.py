@@ -21,7 +21,13 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 
-from src.config import CHUNKS_PATH, UNIVERSITIES_PATH, WEB_DIR
+from src.config import (
+    ADMISSION_PATH,
+    CHUNKS_PATH,
+    PROGRAMS_PATH,
+    UNIVERSITIES_PATH,
+    WEB_DIR,
+)
 from src.rag.answer import answer_question
 from src.rag.retrieve import Retriever
 
@@ -77,6 +83,15 @@ def load_universities() -> list[dict]:
     return json.loads(UNIVERSITIES_PATH.read_text(encoding="utf-8"))
 
 
+def count_json(path: Path) -> int:
+    if not path.exists():
+        return 0
+    try:
+        return len(json.loads(path.read_text(encoding="utf-8")))
+    except (json.JSONDecodeError, OSError):
+        return 0
+
+
 @app.get("/", include_in_schema=False)
 def index() -> FileResponse:
     page = WEB_DIR / "index.html"
@@ -96,6 +111,8 @@ def health() -> dict:
         "chunks": chunks,
         "index_ready": chunks > 0,
         "universities": len(load_universities()),
+        "programs": count_json(PROGRAMS_PATH),
+        "admissions": count_json(ADMISSION_PATH),
     }
 
 

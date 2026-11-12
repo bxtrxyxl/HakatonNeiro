@@ -6,119 +6,724 @@
   <title>Абитуриент-бот · вузы Новосибирска</title>
   <style>
     :root {
-      color-scheme: dark;
-      --bg: #0e1116;
-      --panel: #161b22;
-      --border: #2a3038;
-      --text: #e6edf3;
-      --muted: #8b949e;
-      --accent: #6ea8fe;
-      --user: #1f6feb;
+      --bg: #f2f3f7;
+      --panel: #ffffff;
+      --panel-soft: #f7f8fb;
+      --border: #e5e7ef;
+      --text: #16181d;
+      --muted: #6f7482;
+      --accent: #4f63f6;
+      --accent-hover: #4053e0;
+      --accent-soft: #eef1ff;
+      --green: #2f9e6b;
+      --green-soft: #e9f7ef;
+      --danger: #b42318;
+      --danger-soft: #fef3f2;
+      --shadow: 0 30px 70px rgba(23, 28, 45, 0.14), 0 2px 6px rgba(23, 28, 45, 0.04);
+      --radius: 24px;
     }
+
     * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    [hidden] { display: none !important; }
+
     body {
       margin: 0;
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-      background: var(--bg);
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
       color: var(--text);
-      min-height: 100vh;
+      background:
+        radial-gradient(1100px 560px at 8% -12%, #e7ebff 0%, transparent 60%),
+        radial-gradient(900px 520px at 108% 4%, #eaf6ff 0%, transparent 55%),
+        var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .shell {
+      width: min(780px, 100%);
+      height: min(92vh, 980px);
+      min-height: 600px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
       display: flex;
       flex-direction: column;
+      overflow: hidden;
     }
-    header {
-      padding: 18px 24px;
-      border-bottom: 1px solid var(--border);
+
+    /* ── Шапка ─────────────────────────────────────────── */
+    .topbar {
       display: flex;
-      align-items: baseline;
-      gap: 12px;
-      flex-wrap: wrap;
+      align-items: center;
+      gap: 14px;
+      padding: 15px 20px;
+      border-bottom: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(8px);
+      flex: none;
     }
-    header h1 { font-size: 18px; margin: 0; }
-    header span { color: var(--muted); font-size: 13px; }
-    main {
+
+    .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+
+    .logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent), #7c8cff);
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-size: 17px;
+      font-weight: 700;
+      flex: none;
+      box-shadow: 0 8px 20px rgba(79, 99, 246, 0.28);
+    }
+
+    .brand-text { min-width: 0; }
+    .brand-text h1 {
+      margin: 0;
+      font-size: 15.5px;
+      font-weight: 650;
+      letter-spacing: -0.015em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .brand-text p {
+      margin: 2px 0 0;
+      font-size: 11.5px;
+      color: var(--muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .topbar-actions {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-width: 0;
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--green-soft);
+      border: 1px solid #d5efdf;
+      color: #237a4f;
+      font-size: 11.5px;
+      font-weight: 550;
+      white-space: nowrap;
+    }
+    .status::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 0 3px rgba(47, 158, 107, 0.14);
+    }
+    .status.offline {
+      background: var(--danger-soft);
+      border-color: #fecdca;
+      color: var(--danger);
+    }
+    .status.offline::before {
+      background: #f04438;
+      box-shadow: 0 0 0 3px rgba(240, 68, 56, 0.14);
+    }
+
+    select {
+      appearance: none;
+      max-width: 150px;
+      padding: 8px 30px 8px 10px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--panel-soft)
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236f7482' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E")
+        no-repeat right 10px center;
+      background-size: 12px;
+      color: var(--text);
+      font: inherit;
+      font-size: 12.5px;
+      outline: none;
+      cursor: pointer;
+    }
+    select:focus-visible {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+
+    .icon-button {
+      width: 36px;
+      height: 36px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--panel);
+      color: var(--muted);
+      cursor: pointer;
+      flex: none;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+    }
+    .icon-button:hover {
+      background: var(--accent-soft);
+      border-color: #c9d1ff;
+      color: var(--accent);
+    }
+
+    /* ── Чат ───────────────────────────────────────────── */
+    .chat {
       flex: 1;
       overflow-y: auto;
-      padding: 24px;
+      padding: 24px 24px 8px;
       display: flex;
       flex-direction: column;
       gap: 16px;
-      max-width: 900px;
+      scroll-behavior: smooth;
+      scrollbar-width: thin;
+      scrollbar-color: #d6dae6 transparent;
+    }
+    .chat::-webkit-scrollbar { width: 8px; }
+    .chat::-webkit-scrollbar-thumb {
+      background: #d6dae6;
+      border-radius: 999px;
+    }
+
+    .welcome {
+      margin: auto 0;
       width: 100%;
-      margin: 0 auto;
+      max-width: 760px;
+      align-self: center;
+      padding: 8px 0 12px;
+      text-align: center;
     }
-    .msg {
-      max-width: 85%;
-      padding: 12px 16px;
-      border-radius: 14px;
-      line-height: 1.5;
-      white-space: pre-wrap;
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      border: 1px solid #dfe4ff;
+      color: var(--accent);
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
     }
-    .msg.user { align-self: flex-end; background: var(--user); }
-    .msg.bot { align-self: flex-start; background: var(--panel); border: 1px solid var(--border); }
-    .meta {
-      margin-top: 8px;
-      font-size: 12px;
+
+    .welcome h2 {
+      margin: 15px 0 10px;
+      font-size: clamp(26px, 3.4vw, 36px);
+      line-height: 1.1;
+      letter-spacing: -0.035em;
+      font-weight: 700;
+    }
+
+    .welcome > p {
+      max-width: 540px;
+      margin: 0 auto 22px;
       color: var(--muted);
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
+      font-size: 14px;
+      line-height: 1.6;
     }
-    .badge { border: 1px solid var(--border); border-radius: 999px; padding: 1px 8px; }
-    .sources { margin-top: 10px; display: flex; flex-direction: column; gap: 4px; font-size: 13px; }
-    .sources a { color: var(--accent); text-decoration: none; overflow-wrap: anywhere; }
-    .sources a:hover { text-decoration: underline; }
-    form {
-      position: sticky;
-      bottom: 0;
-      background: var(--bg);
-      border-top: 1px solid var(--border);
-      padding: 16px 24px;
-      display: flex;
+
+    .suggestions {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 10px;
+      text-align: left;
     }
-    form input {
-      flex: 1;
+
+    .suggestion {
+      display: flex;
+      align-items: flex-start;
+      gap: 11px;
       padding: 12px 14px;
-      border-radius: 10px;
       border: 1px solid var(--border);
+      border-radius: 14px;
       background: var(--panel);
       color: var(--text);
-      font-size: 15px;
+      font: inherit;
+      text-align: left;
+      cursor: pointer;
+      transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s, background 0.15s;
+    }
+    .suggestion:hover {
+      transform: translateY(-1px);
+      border-color: #c9d1ff;
+      background: #f8f9ff;
+      box-shadow: 0 6px 18px rgba(79, 99, 246, 0.08);
+    }
+
+    .suggestion-icon {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      display: grid;
+      place-items: center;
+      flex: none;
+    }
+
+    .suggestion-text { min-width: 0; }
+    .suggestion-text strong {
+      display: block;
+      margin-bottom: 2px;
+      font-size: 12.5px;
+      font-weight: 650;
+    }
+    .suggestion-text span {
+      display: block;
+      color: var(--muted);
+      font-size: 11.5px;
+      line-height: 1.4;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      margin-top: 22px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+    .stats div {
+      flex: 1;
+      padding: 0 12px;
+      border-right: 1px solid var(--border);
+    }
+    .stats div:last-child { border-right: 0; }
+    .stats strong {
+      display: block;
+      font-size: 16px;
+      font-weight: 650;
+      letter-spacing: -0.02em;
+    }
+    .stats span {
+      display: block;
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .message {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      max-width: 80%;
+      animation: fadeIn 0.2s ease;
+    }
+    .message.user { align-self: flex-end; align-items: flex-end; }
+    .message.bot { align-self: flex-start; align-items: flex-start; }
+
+    .bubble {
+      padding: 12px 15px;
+      border-radius: 16px;
+      font-size: 14px;
+      line-height: 1.55;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+    }
+    .message.bot .bubble {
+      background: var(--panel-soft);
+      border: 1px solid var(--border);
+      border-top-left-radius: 5px;
+    }
+    .message.user .bubble {
+      background: var(--accent);
+      color: #fff;
+      border-top-right-radius: 5px;
+      box-shadow: 0 8px 18px rgba(79, 99, 246, 0.18);
+    }
+
+    .meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 10.5px;
+    }
+    .message.user .meta { justify-content: flex-end; }
+    .mode {
+      padding: 1px 7px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--panel);
+      font-size: 10px;
+    }
+
+    .sources {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      width: 100%;
+      margin-top: 9px;
+    }
+    .sources-title {
+      margin-bottom: 1px;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+    .source {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 10px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--panel);
+      color: var(--text);
+      font-size: 11.5px;
+      text-decoration: none;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .source:hover { border-color: #c9d1ff; background: #f8f9ff; }
+    .source-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+      flex: none;
+    }
+    .source-title {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .source-host {
+      margin-left: auto;
+      color: var(--muted);
+      font-size: 10.5px;
+      flex: none;
+    }
+
+    .typing {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 15px 16px;
+    }
+    .typing span {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #b9bfd0;
+      animation: bounce 1.2s infinite;
+    }
+    .typing span:nth-child(2) { animation-delay: 0.15s; }
+    .typing span:nth-child(3) { animation-delay: 0.3s; }
+
+    /* ── Быстрые вопросы ───────────────────────────────── */
+    .quick-bar {
+      display: none;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+      padding: 8px 20px 0;
+      flex: none;
+    }
+    .quick-bar.visible { display: flex; }
+    .quick-label {
+      margin-right: 3px;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .quick-bar button {
+      padding: 6px 10px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--panel);
+      color: var(--text);
+      font: inherit;
+      font-size: 11.5px;
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s, color 0.15s;
+    }
+    .quick-bar button:hover {
+      border-color: #c9d1ff;
+      background: #f8f9ff;
+      color: var(--accent);
+    }
+
+    /* ── Ввод ──────────────────────────────────────────── */
+    .composer {
+      flex: none;
+      padding: 12px 20px 15px;
+      border-top: 1px solid var(--border);
+      background: var(--panel);
+    }
+    .composer-inner {
+      display: flex;
+      align-items: flex-end;
+      gap: 10px;
+      padding: 7px 7px 7px 14px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: var(--panel-soft);
+      transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+    }
+    .composer-inner:focus-within {
+      border-color: var(--accent);
+      background: var(--panel);
+      box-shadow: 0 0 0 4px var(--accent-soft);
+    }
+
+    textarea {
+      flex: 1;
+      min-height: 22px;
+      max-height: 120px;
+      padding: 7px 0;
+      border: 0;
+      background: transparent;
+      color: var(--text);
+      font: inherit;
+      font-size: 14px;
+      line-height: 1.5;
+      resize: none;
       outline: none;
     }
-    form input:focus { border-color: var(--accent); }
-    form button {
-      padding: 12px 20px;
+    textarea::placeholder { color: #9aa0ae; }
+
+    .send {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
       border: 0;
-      border-radius: 10px;
+      border-radius: 11px;
       background: var(--accent);
-      color: #0b1220;
-      font-weight: 600;
+      color: #fff;
       cursor: pointer;
+      flex: none;
+      transition: background 0.15s, transform 0.15s;
     }
-    form button:disabled { opacity: 0.6; cursor: wait; }
+    .send:hover { background: var(--accent-hover); transform: translateY(-1px); }
+    .send:active { transform: translateY(0); }
+    .send:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+    .hint {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 8px 4px 0;
+      color: var(--muted);
+      font-size: 10.5px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: none; }
+    }
+    @keyframes bounce {
+      0%, 80%, 100% { transform: translateY(0); opacity: 0.45; }
+      40% { transform: translateY(-4px); opacity: 1; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; }
+    }
+
+    @media (max-width: 760px) {
+      body { padding: 0; }
+      .shell {
+        width: 100%;
+        height: 100vh;
+        height: 100dvh;
+        min-height: 0;
+        border: 0;
+        border-radius: 0;
+      }
+      .topbar { padding: 12px 14px; gap: 10px; }
+      .brand p { display: none; }
+      .status { display: none; }
+      .chat { padding: 18px 16px 6px; }
+      .welcome { padding: 4px 0 8px; }
+      .welcome h2 { font-size: 28px; }
+      .suggestions { grid-template-columns: 1fr; }
+      .stats div { padding: 0 8px; }
+      .message { max-width: 90%; }
+      .quick-bar { padding: 8px 14px 0; }
+      .composer { padding: 10px 14px 12px; }
+      .hint span:last-child { display: none; }
+      select { max-width: 128px; }
+    }
+
+    @media (max-width: 560px) {
+      .source-host { display: none; }
+    }
+
+    @media (max-width: 480px) {
+      .brand-text h1 { font-size: 14px; }
+      .logo { width: 34px; height: 34px; border-radius: 10px; font-size: 15px; }
+      .icon-button { display: none; }
+      .stats strong { font-size: 14px; }
+      .stats span { font-size: 9.5px; }
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Абитуриент-бот</h1>
-    <span>вузы Новосибирска · ответы со ссылками на источники</span>
-  </header>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">А</div>
+        <div class="brand-text">
+          <h1>Абитуриент-бот</h1>
+          <p>вузы Новосибирска · приём-2026</p>
+        </div>
+      </div>
 
-  <main id="chat">
-    <div class="msg bot">Здравствуйте! Спросите про вузы Новосибирска: направления, предметы ЕГЭ, проходные баллы, сроки приёма. Я отвечу и покажу источники.</div>
-  </main>
+      <div class="topbar-actions">
+        <span class="status" id="status" title="Проверяю индекс…">Онлайн</span>
+        <select id="university" aria-label="Выбрать вуз">
+          <option value="">Все вузы</option>
+        </select>
+        <button class="icon-button" id="reset" type="button" title="Новый диалог" aria-label="Новый диалог">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 12a9 9 0 1 0 3-6.7L3 8" />
+            <path d="M3 3v5h5" />
+          </svg>
+        </button>
+      </div>
+    </header>
 
-  <form id="form">
-    <input id="q" autocomplete="off" placeholder="Например: какие предметы нужны на ПМИ в НГУ?" />
-    <button id="send" type="submit">Спросить</button>
-  </form>
+    <main class="chat" id="chat" role="log" aria-live="polite">
+      <section class="welcome" id="welcome">
+        <span class="eyebrow">Помощник абитуриента · 2026</span>
+        <h2>Куда поступить<br />в Новосибирске?</h2>
+        <p>Спросите про направления, проходные баллы, предметы ЕГЭ, стоимость и сроки. Ответы — со ссылками на официальные сайты вузов.</p>
+
+        <div class="suggestions">
+          <button class="suggestion" type="button" data-question="Сколько бюджетных мест на Информатику и вычислительную технику в СибГУТИ?">
+            <span class="suggestion-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="6" width="18" height="12" rx="2" />
+                <path d="M3 10h18" />
+                <path d="M7 15h3" />
+              </svg>
+            </span>
+            <span class="suggestion-text">
+              <strong>Бюджетные места</strong>
+              <span>Сколько мест на ИВТ в СибГУТИ?</span>
+            </span>
+          </button>
+
+          <button class="suggestion" type="button" data-question="Какой проходной балл на бюджет на 09.03.01 в СибГУТИ?">
+            <span class="suggestion-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 19V5" />
+                <path d="M4 19h16" />
+                <path d="m7 15 4-4 3 3 5-6" />
+              </svg>
+            </span>
+            <span class="suggestion-text">
+              <strong>Проходной балл</strong>
+              <span>Бюджет и платно, итоги 2026</span>
+            </span>
+          </button>
+
+          <button class="suggestion" type="button" data-question="Какие предметы нужны на Радиотехнику в СибГУТИ?">
+            <span class="suggestion-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v18H6.5A2.5 2.5 0 0 1 4 18.5z" />
+                <path d="M4 5.5V18.5" />
+                <path d="M8 7h8" />
+                <path d="M8 11h6" />
+              </svg>
+            </span>
+            <span class="suggestion-text">
+              <strong>Предметы ЕГЭ</strong>
+              <span>И минимальные баллы</span>
+            </span>
+          </button>
+
+          <button class="suggestion" type="button" data-question="Сколько стоит обучение на очной форме в СибГУТИ?">
+            <span class="suggestion-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="16" rx="2" />
+                <path d="M16 3v4" />
+                <path d="M8 3v4" />
+                <path d="M3 11h18" />
+              </svg>
+            </span>
+            <span class="suggestion-text">
+              <strong>Стоимость и сроки</strong>
+              <span>Очная форма, 2026/2027</span>
+            </span>
+          </button>
+        </div>
+
+        <div class="stats">
+          <div><strong id="statUniversities">14</strong><span>вузов</span></div>
+          <div><strong id="statPrograms">30</strong><span>программ в базе</span></div>
+          <div><strong>2026</strong><span>год приёма</span></div>
+        </div>
+      </section>
+    </main>
+
+    <div class="quick-bar" id="quickBar">
+      <span class="quick-label">Быстрый вопрос</span>
+      <button type="button" data-question="Какой проходной балл на бюджет на 09.03.01 в СибГУТИ?">Проходной балл</button>
+      <button type="button" data-question="Какие предметы нужны на Радиотехнику в СибГУТИ?">Предметы ЕГЭ</button>
+      <button type="button" data-question="Сколько стоит обучение на очной форме в СибГУТИ?">Стоимость</button>
+      <button type="button" data-question="До какого числа принимают документы на бюджет в СибГУТИ?">Сроки</button>
+    </div>
+
+    <form class="composer" id="form">
+      <div class="composer-inner">
+        <textarea id="input" rows="1" placeholder="Спросите про вуз, направление, баллы…" aria-label="Вопрос"></textarea>
+        <button class="send" id="send" type="submit" aria-label="Отправить">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="m22 2-7 20-4-9-9-4Z" />
+            <path d="M22 2 11 13" />
+          </svg>
+        </button>
+      </div>
+      <div class="hint">
+        <span>Enter — отправить · Shift+Enter — новая строка</span>
+        <span>Данные: официальные сайты вузов</span>
+      </div>
+    </form>
+  </div>
 
   <script>
     const chat = document.getElementById("chat");
+    const welcome = document.getElementById("welcome");
+    const quickBar = document.getElementById("quickBar");
     const form = document.getElementById("form");
-    const input = document.getElementById("q");
+    const input = document.getElementById("input");
     const send = document.getElementById("send");
+    const universitySelect = document.getElementById("university");
+    const status = document.getElementById("status");
+    const reset = document.getElementById("reset");
+    const statUniversities = document.getElementById("statUniversities");
+    const statPrograms = document.getElementById("statPrograms");
+
+    const MODE_LABELS = {
+      facts: "база",
+      llm: "LLM",
+      extractive: "поиск",
+      "extractive-fallback": "fallback",
+      "no-data": "нет данных",
+    };
 
     function el(tag, className, text) {
       const node = document.createElement(tag);
@@ -127,62 +732,163 @@
       return node;
     }
 
+    function now() {
+      return new Date().toLocaleTimeString("ru-RU", { hour: "2-digit", minute: "2-digit" });
+    }
+
+    function hostOf(url) {
+      try {
+        return new URL(url).hostname.replace(/^www\./, "");
+      } catch {
+        return "";
+      }
+    }
+
     function addMessage(role, text, sources = [], mode = "") {
-      const msg = el("div", "msg " + role);
-      msg.appendChild(el("div", "", text));
+      const message = el("div", "message " + role);
+      message.appendChild(el("div", "bubble", text));
 
       if (sources.length) {
         const box = el("div", "sources");
-        box.appendChild(el("div", "meta", "Источники:"));
-        sources.forEach((source, index) => {
-          const link = el("a", "", `[${index + 1}] ${source.title || source.url}`);
+        box.appendChild(el("div", "sources-title", "Источники"));
+        sources.forEach((source) => {
+          const link = el("a", "source");
           link.href = source.url;
           link.target = "_blank";
           link.rel = "noopener noreferrer";
+          link.appendChild(el("span", "source-dot"));
+          link.appendChild(el("span", "source-title", source.title || source.url));
+          const host = hostOf(source.url);
+          if (host) link.appendChild(el("span", "source-host", host));
           box.appendChild(link);
         });
-        msg.appendChild(box);
+        message.appendChild(box);
       }
 
-      if (mode) {
-        const meta = el("div", "meta");
-        meta.appendChild(el("span", "badge", "режим: " + mode));
-        msg.appendChild(meta);
-      }
+      const meta = el("div", "meta");
+      meta.appendChild(el("span", "", now()));
+      if (mode) meta.appendChild(el("span", "mode", MODE_LABELS[mode] || mode));
+      message.appendChild(meta);
 
-      chat.appendChild(msg);
+      chat.appendChild(message);
       chat.scrollTop = chat.scrollHeight;
-      return msg;
+      return message;
     }
 
-    form.addEventListener("submit", async (event) => {
-      event.preventDefault();
-      const question = input.value.trim();
-      if (!question) return;
+    function addTyping() {
+      const message = el("div", "message bot");
+      const bubble = el("div", "bubble typing");
+      for (let i = 0; i < 3; i += 1) bubble.appendChild(el("span"));
+      message.appendChild(bubble);
+      chat.appendChild(message);
+      chat.scrollTop = chat.scrollHeight;
+      return message;
+    }
 
-      addMessage("user", question);
+    function showWelcome(show) {
+      welcome.hidden = !show;
+      quickBar.classList.toggle("visible", !show);
+    }
+
+    async function ask(question) {
+      const text = question.trim();
+      if (!text) return;
+
+      showWelcome(false);
+      addMessage("user", text);
       input.value = "";
+      resize();
       send.disabled = true;
-      const loading = addMessage("bot", "Ищу в источниках…");
+      const typing = addTyping();
 
       try {
         const response = await fetch("/api/chat", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ question }),
+          body: JSON.stringify({
+            question: text,
+            university: universitySelect.value || undefined,
+          }),
         });
         const data = await response.json();
         if (!response.ok) throw new Error(data.detail || response.statusText);
-        loading.remove();
+        typing.remove();
         addMessage("bot", data.answer, data.sources || [], data.mode || "");
       } catch (error) {
-        loading.remove();
-        addMessage("bot", "Ошибка: " + error.message);
+        typing.remove();
+        addMessage("bot", "Не получилось получить ответ: " + error.message);
       } finally {
         send.disabled = false;
         input.focus();
       }
+    }
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      ask(input.value);
     });
+
+    input.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" && !event.shiftKey) {
+        event.preventDefault();
+        form.requestSubmit();
+      }
+    });
+
+    function resize() {
+      input.style.height = "auto";
+      input.style.height = Math.min(input.scrollHeight, 120) + "px";
+    }
+    input.addEventListener("input", resize);
+
+    document.querySelectorAll("[data-question]").forEach((button) => {
+      button.addEventListener("click", () => ask(button.dataset.question));
+    });
+
+    reset.addEventListener("click", () => {
+      chat.querySelectorAll(".message").forEach((message) => message.remove());
+      showWelcome(true);
+      input.value = "";
+      resize();
+      input.focus();
+    });
+
+    async function loadMeta() {
+      try {
+        const response = await fetch("/api/universities");
+        const items = await response.json();
+        for (const item of items) {
+          const option = document.createElement("option");
+          option.value = item.slug;
+          option.textContent = item.short_name;
+          universitySelect.appendChild(option);
+        }
+      } catch {
+        // селект останется с «Все вузы»
+      }
+
+      try {
+        const response = await fetch("/health");
+        const data = await response.json();
+        status.textContent = data.index_ready ? "Онлайн" : "Индекс не собран";
+        status.title = data.index_ready
+          ? `${data.chunks} фрагментов, ${data.universities} вузов`
+          : "Запустите python -m src.rag.build_chunks";
+        status.classList.toggle("offline", !data.index_ready);
+        if (typeof data.universities === "number") {
+          statUniversities.textContent = data.universities;
+        }
+        if (typeof data.programs === "number") {
+          statPrograms.textContent = data.programs;
+        }
+      } catch {
+        status.textContent = "Нет связи";
+        status.classList.add("offline");
+      }
+    }
+
+    loadMeta();
+    input.focus();
   </script>
 </body>
 </html>

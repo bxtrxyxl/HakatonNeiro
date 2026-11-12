@@ -125,6 +125,42 @@ docker compose up --build
 
 ---
 
+## Подключение LLM
+
+Чат не обращается к модели напрямую. Схема: `web/` → FastAPI → `src/rag/answer.py`
+→ LLM API. Подходит любой **OpenAI-совместимый** `/chat/completions`.
+
+```env
+LLM_BASE_URL=https://api.openai.com/v1
+LLM_API_KEY=ваш_ключ
+LLM_MODEL=gpt-4o-mini
+LLM_TEMPERATURE=0.1
+```
+
+| Провайдер | `LLM_BASE_URL` | Модель |
+|---|---|---|
+| OpenAI | `https://api.openai.com/v1` | `gpt-4o-mini` |
+| OpenRouter | `https://openrouter.ai/api/v1` | любая из каталога |
+| YandexGPT | `https://llm.api.cloud.yandex.net/v1` | `gpt://<folder_id>/yandexgpt-lite/latest` |
+| Ollama (локально) | `http://localhost:11434/v1` | `qwen2.5:7b` |
+| vLLM / LM Studio | свой адрес | своя модель |
+
+С GigaChat сложнее: у Сбера своя OAuth-авторизация, поэтому нужен SDK или
+прокси-адаптер. Для хакатона проще YandexGPT или OpenAI-совместимый шлюз.
+
+Что происходит при запросе:
+
+1. `src/rag/facts.py` пытается ответить точно из JSON. Вопросы про места, баллы,
+   предметы, стоимость и сроки LLM не требуют.
+2. Иначе `Retriever` достаёт top-k чанков из `chunks.jsonl`.
+3. `src/rag/answer.py` отправляет в LLM системный промпт, контекст и вопрос.
+4. Если ключа нет или LLM недоступна — включается `extractive`-режим.
+
+После изменения `.env` перезапустите `uvicorn`. Проверка: описательный вопрос
+должен вернуть `"mode": "llm"`. Файл `.env` в git не попадает.
+
+---
+
 ## Структура репозитория
 
 ```
